@@ -49,7 +49,7 @@ const { width } = Dimensions.get('window');
 // 서버 API URL
 const WASTE_API_URL = "https://refresh-f5-server.o-r.kr/api/pickup/waste/type-list";
 // YOLO 서버 URL을 실제 서버 URL로 설정 (배포 시 변경 필요)
-const WASTE_DETECTION_API_URL = "http://172.30.1.87:8080/api/detect-waste";
+const WASTE_DETECTION_API_URL = "http://192.168.0.2:8080/api/detect-waste";
 
 const PickupRequestPage = () => {
   const navigation = useNavigation();
